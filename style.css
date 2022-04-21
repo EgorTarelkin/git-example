@@ -1,0 +1,292 @@
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.top {
+    background: #EEEFF1;
+    padding-bottom: 100px;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    padding: 50px 0px 160px 0px;
+    margin-left: 100px;
+}
+
+.logo {
+    font-family: 'Revalia', cursive;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547A;
+}
+
+.menu {
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    margin-right: 42px;
+}
+
+.intro {
+    justify-content: space-between;
+    display: flex;
+    max-width: 1028px;
+    margin:0px auto 188px auto;
+}
+
+.intro-img {
+    margin-top: 20px;
+    height: 233.7px;
+    width: 357px;
+}
+
+.intro-text {
+    margin-left: 42px;
+}
+
+.intro-text h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    margin-top: 0%;
+}
+
+.intro-text p {
+    margin-bottom: 40px;
+    max-width: 540px;
+    color: #727272; 
+}
+
+.link-contact {
+    text-decoration: none;
+    text-align: center;
+    background: #34547A;
+    color: #FFFFFF;
+    padding: 20px 41px;
+    display: inline-block;
+}
+
+.about-me {
+    margin: 100px auto 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.about-me p {
+    max-width: 540px;
+    color: #727272;
+    text-align: center;
+}
+
+.projects {
+    margin: 50px auto 50px auto;
+    background-color: #34547A;
+}
+
+.project-items {
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto 0 auto;
+}
+
+.project-items li img {
+    margin: 70px 30px;
+}
+
+.skill-set {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.skills {
+    margin-right: 150px;
+}
+
+.skills ul{
+    list-style: none;
+    justify-content: left;
+    padding: 0%;
+    margin-inline-start: 0%;
+    padding-inline-start: 0%;
+    width: 350px;
+}
+
+.skills li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.skills ul p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin:0%
+}
+
+.progress-bar {
+    border-radius: 0%; 
+    width: 100%;
+    height: 5px;
+    box-shadow: 1px 1px 1px #C4C4C4;
+  }
+
+.progress-bar::-webkit-progress-value {background-color: #34547A !important;}
+
+.profile-pic{
+    height: 350px;
+    width: 420px;
+}
+
+.how-I-work{
+    background-color: #EEEFF1;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.how-I-work p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 450px;
+}
+
+.video {
+    margin-top: 50px;
+}
+
+.inner_block {
+    float:left;
+    width:25%;
+}
+
+.inner_block img { 
+    width:100%; 
+    height:auto; 
+    vertical-align:middle; 
+}
+.microsoft-items {
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto 0 auto;
+}
+
+.microsoft-items li img {
+    margin: 70px 10px;
+    width: 180px;
+    height: 80px;
+}
+
+.wanna-webpage{
+    background-color: #EEEFF1;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.wanna-webpage p {
+    margin-bottom: 40px;
+    max-width: 540px;
+    color: #727272; 
+}
+
+.wanna-webpage p {
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.basic-input{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.basic-input input{
+    width: 210px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.basic-input input[value]{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: top;
+    color: #5F5D5D; 
+}
+
+.message-input{
+    width: 450px;
+    height: 120px; 
+    border: none; 
+    text-align: top;
+}
+
+.message-input[value]{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: top;
+    color: #5F5D5D; 
+}
+
+.footer {
+    background-color: #34547A;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-items {
+    max-width: 1000px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-items li img {
+    margin: 70px 10px;
+    width: 35px;
+    height: 25px;
+}
